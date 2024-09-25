@@ -11,7 +11,7 @@ const pool = new Pool({
   host: 'localhost',
   database: 'innovaweb',
   password: 'ds564',
-  port: 5432, 
+  port: 7777, 
 });
 
 app.get('/cursos', async (req, res) => {
